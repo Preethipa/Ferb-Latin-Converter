@@ -2,13 +2,13 @@
 
 body{
     font-family: 'Nerko One', cursive;
-    text-align: center;
+
 }
 
 :root{
     --light-color:#fefce8;
     --dark-pink: #ea580c;
-     position: fixed;
+    position: fixed;
 }
 
 .header-cls{
@@ -21,13 +21,14 @@ body{
 
 .btn{
     padding: 0px 450px;
-    position: static;
+    position: fixed;
+   
    
 }
 
 .footer{
     text-align: center;
-    padding:1.5rem;
+    padding:3.5rem;
     margin-top: 550px;
     background-color: var(--light-color);
 }
