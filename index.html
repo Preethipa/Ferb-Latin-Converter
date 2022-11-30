@@ -6,36 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>translation app</title>
 
+    <link rel="stylesheet" href="styles.css">
+
     <style>
         textarea{
             display: block;
             padding:1rem 1rem;
             margin:auto;
-            width:75%;
-            padding-bottom: 5rem;
+            margin-top: 2rem;
+            width:70%;
+            position:static;
+            font-family: 'Nerko One', cursive;
+            padding-bottom: 8rem;
+            border-color: #ea580c;
+            background-color: 
+#fefce8;
+        }
+
+        button{
+            margin-top: 1.5rem;
+            padding: 1rem 1rem;
+            background: transparent;
+            border-color: #ea580c;
+            color:#ea580c;
+            font-family: 'Nerko One', cursive;
         }
 
         #output{
-            border:1px solid black;
+            border:1px solid #ea580c;
             height: 5vh;
-            width: 75%;
+            width: 70%;
             margin: auto;
-            margin-top: 1rem;
+            font-size: large;
+            margin-top: 1.5rem;
             padding:1rem 1rem;
-            padding-bottom: 2.5rem;
+            padding-bottom: 6rem;
+            background-color:
+#fefce8;
         }
 
     </style>
 </head>
 <body>
-    <h1 id="heading">Trans app</h1>
+    <header class="header-cls">
+        <h1 class="heading">Ferb-Latin Converter</h1>
+    </header>
 
-    <textarea id="ip-txt" placeholder="Enter the sentence here"></textarea>
+    <textarea id="ip-txt" placeholder="Enter the sentence here and it will be convert to Ferb-Latin."></textarea>
 
-    <button id="trans-btn">Transulate</button>
-
+    <div class="btn">
+        <button id="trans-btn">Translate to Freb-Latin 👇🏻</button>
+    </div>
+    
     <div id="output"></div>
 
+    <footer class="footer">
+        <h2 class="footer-head">About</h2>
+    <p class="about-para">Are you fan of two brothers Phineas and Ferb(in a Dinsney series)? Use this translator to convert the sentence from English to Ferb-Latin.  </p>
+    
     <script src="trans-app.js"></script>
+
 </body>
 </html>

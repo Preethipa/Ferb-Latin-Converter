@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cabin&family=Karla&family=Lato&family=Merriweather&family=Nerko+One&family=Playfair+Display&family=Secular+One&family=Sono&family=Source+Sans+Pro&family=Space+Grotesk&display=swap');
+
+body{
+    font-family: 'Nerko One', cursive;
+
+}
+
+:root{
+    --light-color:#fefce8;
+    --dark-pink: #ea580c; 
+}
+
+.header-cls{
+    display: block;
+    text-align: center;
+    background-color: var(--light-color);
+    padding: 2.5rem;
+    color:var(--dark-pink);
+}
+
+.btn{
+    padding: 0px 550px;
+    position: static;
+   
+}
+
+.footer{
+    text-align: center;
+    padding:1.5rem;
+    margin-top: 450px;
+    background-color: var(--light-color);
+}
+
+.footer-head{
+    color:var(--dark-pink)
+}
+
+.about-para{
+    color:var(--dark-pink);
+    font-size: large;
+}
